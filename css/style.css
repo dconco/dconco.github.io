@@ -87,9 +87,12 @@ nav .container {
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-	background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 100%);
 	position: relative;
 	overflow: hidden;
+	background:
+		linear-gradient(rgba(15, 15, 35, 0.7), rgba(26, 26, 62, 0.7)),
+		url('https://images.unsplash.com/photo-1639762681057-408e52192e55?q=80&w=2232&auto=format&fit=crop')
+			center/cover;
 }
 
 .hero::before {
@@ -216,7 +219,10 @@ nav .container {
 /* About Section */
 .about {
 	padding: 100px 0;
-	background: #1a1a3e;
+	background:
+		linear-gradient(rgba(26, 26, 62, 0.9), rgba(26, 26, 62, 0.9)),
+		url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2340&auto=format&fit=crop')
+			center/cover;
 }
 
 .section-title {
@@ -305,7 +311,10 @@ nav .container {
 /* Projects Section */
 .projects {
 	padding: 100px 0;
-	background: #0f0f23;
+	background:
+		linear-gradient(rgba(15, 15, 35, 0.9), rgba(15, 15, 35, 0.9)),
+		url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2340&auto=format&fit=crop')
+			center/cover;
 }
 
 .projects-grid {
@@ -400,7 +409,10 @@ nav .container {
 /* Contact Section */
 .contact {
 	padding: 100px 0;
-	background: #1a1a3e;
+	background:
+		linear-gradient(rgba(26, 26, 62, 0.9), rgba(26, 26, 62, 0.9)),
+		url('https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=2341&auto=format&fit=crop')
+			center/cover;
 	text-align: center;
 }
 
@@ -428,16 +440,19 @@ nav .container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: #8892b0;
+	color: #ccd6f6;
 	text-decoration: none;
 	transition: color 0.3s ease;
+	-webkit-tap-highlight-color: transparent;
+	-moz-tap-highlight-color: transparent;
 }
 
-.contact-item:hover {
-	color: #64ffda;
+.contact-item:hover div {
+	color: #00d4aa;
 }
 
 .contact-item .icon {
+	color: #64ffda;
 	font-size: 2em;
 	margin-bottom: 10px;
 }
