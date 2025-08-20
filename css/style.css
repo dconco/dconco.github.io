@@ -155,9 +155,6 @@ nav .container {
 	width: 280px;
 	height: 280px;
 	border-radius: 50%;
-	border: 4px solid #64ffda;
-	padding: 8px;
-	background: linear-gradient(135deg, #64ffda, #00d4aa);
 	box-shadow: 0 20px 40px rgba(100, 255, 218, 0.3);
 	transition:
 		transform 0.3s ease,
