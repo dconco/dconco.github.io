@@ -36,6 +36,6 @@ const observer = new IntersectionObserver(entries => {
 	})
 }, observerOptions)
 
-document.querySelectorAll('.project-card, .skill-category').forEach(el => {
+document.querySelectorAll('.project-card, .skill-category, .ai-bot-card').forEach(el => {
 	observer.observe(el)
 })
