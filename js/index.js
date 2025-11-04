@@ -6,7 +6,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 		if (target) {
 			target.scrollIntoView({
 				behavior: 'smooth',
-				block: 'start',
+				block: 'start'
 			})
 		}
 	})
@@ -22,6 +22,7 @@ window.addEventListener('scroll', () => {
 	}
 })
 
+/*
 // Animate elements on scroll
 const observerOptions = {
 	threshold: 0.1,
@@ -39,3 +40,4 @@ const observer = new IntersectionObserver(entries => {
 document.querySelectorAll('.project-card, .skill-category, .ai-bot-card').forEach(el => {
 	observer.observe(el)
 })
+*/
