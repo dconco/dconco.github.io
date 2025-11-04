@@ -1,11 +1,11 @@
-# Robots.txt for www.dconco.tech 
+# Robots.txt for dconco.github.io
 # Allow all search engines to index the site
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.dconco.tech/sitemap.xml
+Sitemap: https://dconco.github.io/sitemap.xml
 
 # Crawl delay (optional, helps prevent server overload)
 Crawl-delay: 1
