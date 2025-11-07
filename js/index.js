@@ -8,9 +8,47 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 				behavior: 'smooth',
 				block: 'start'
 			})
+			// Close mobile menu after clicking a link
+			const navLinks = document.querySelector('.nav-links')
+			const menuToggle = document.querySelector('.mobile-menu-toggle')
+			const menuOverlay = document.querySelector('.mobile-menu-overlay')
+			if (navLinks && menuToggle && menuOverlay) {
+				navLinks.classList.remove('active')
+				menuToggle.classList.remove('active')
+				menuOverlay.classList.remove('active')
+				document.body.style.overflow = 'auto'
+			}
 		}
 	})
 })
+
+// Mobile menu toggle
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle')
+const navLinks = document.querySelector('.nav-links')
+const menuOverlay = document.querySelector('.mobile-menu-overlay')
+
+if (mobileMenuToggle && navLinks && menuOverlay) {
+	mobileMenuToggle.addEventListener('click', () => {
+		mobileMenuToggle.classList.toggle('active')
+		navLinks.classList.toggle('active')
+		menuOverlay.classList.toggle('active')
+		
+		// Prevent body scroll when menu is open
+		if (navLinks.classList.contains('active')) {
+			document.body.style.overflow = 'hidden'
+		} else {
+			document.body.style.overflow = 'auto'
+		}
+	})
+
+	// Close menu when clicking overlay
+	menuOverlay.addEventListener('click', () => {
+		navLinks.classList.remove('active')
+		mobileMenuToggle.classList.remove('active')
+		menuOverlay.classList.remove('active')
+		document.body.style.overflow = 'auto'
+	})
+}
 
 // Add scroll effect to navigation
 window.addEventListener('scroll', () => {
