@@ -9,7 +9,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://raw.githubusercontent.com/dconco/dconco/refs/heads/main/profile3.png</image:loc>
+      <image:loc>https://raw.githubusercontent.com/dconco/dconco/refs/heads/main/favicons/android-chrome-512x512.png</image:loc>
       <image:title>Dave Conco - Full-Stack Developer</image:title>
     </image:image>
   </url>
