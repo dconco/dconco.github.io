@@ -132,16 +132,6 @@ It's fun, smart, and knows everything about my work, projects, and dev journey.
 
 ---
 
-## 🏆 **ACHIEVEMENT SHOWCASE**
-
-<div align="center">
-  
-  ![Trophy](https://github-profile-trophy.vercel.app/?username=dconco&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4)
-  
-</div>
-
----
-
 ## ⚡ **ACTIVITY PULSE**
 
 <div align="center">
@@ -218,6 +208,6 @@ It's fun, smart, and knows everything about my work, projects, and dev journey.
   
   ### 🌈 *"Code is poetry in motion"* 🌈
   
-  **Made with ❤️ by dconco • © 2025**
+  **Made with ❤️ by dconco • © 2026**
   
 </div>
